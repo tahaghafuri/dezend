@@ -1,11 +1,11 @@
-DeZend 源代码
+DeZend source code
 ======
-很抱歉，这算是一份迟到的DeZend系统的源代码，这个项目起源于2006年，那时候我还工作在万国商业网。
+Sorry, this is a late source code of the DeZend system. This project originated in 2006, when I was still working at the World Business Network.
 
-系统的作者叫做罗敏，是一个资深的C/C++、汇编工程师，这个DeZend系统是我们的小小罗加盟万国商业网以后的第一个项目。不过因为当时已经达到了系统的基本目的，所以项目没有继续往下维护。
+The author of the system is Luo Min, a senior C/C++ and assembly engineer. This DeZend system is the first project of our little Luo after joining the World Business Network. However, because the basic purpose of the system had been achieved at that time, the project was not maintained further.
 
-网上有很多说法是这个DeZend系统来源于俄国佬，其实不然，当时因为疏忽，一个IPB的漏洞造成服务器管理员权限被破，所以导致这套系统的二进制版本被流出，但是俄国佬的版本就不再有更新了，因为当时的源代码的SVN在一个封闭的内网环境中，服务器上也不曾保存过源代码版本，所以源代码至今才被公开出来。
+There are many sayings on the Internet that this DeZend system originated from the Russians, but this is not the case. At that time, due to negligence, an IPB vulnerability caused the server administrator's authority to be broken, so the binary version of this system was leaked, but the Russian version was no longer updated, because the SVN of the source code at that time was in a closed intranet environment, and the source code version had never been saved on the server, so the source code has not been made public until now.
 
-由于小小罗对于Linux系统不熟悉，所以系统是基于VC6、Windows环境开发的，因为高度依赖于一些MFC的代码，所以代码也很难向类Nix系统移植，有兴趣的朋友可以移植看看，不过现在外面发布的二进制版本基本上也已经满足了大部分的需求，随着DeZend系统的二进制版本的第一次流出，以及后续主动发布过2个版本的二进制版本，所以现在也很少有PHP代码使用Zend加密。
+Since Xiaoxiao Luo is not familiar with Linux system, the system is developed based on VC6 and Windows environment. Because it is highly dependent on some MFC codes, it is difficult to port the code to Nix-like systems. Interested friends can try porting. However, the binary versions released outside have basically met most of the needs. With the first release of the binary version of the DeZend system and the subsequent active release of two versions of the binary version, there are now few PHP codes using Zend encryption.
 
-今天在一个经常晃悠的论坛上看到有网友要DeZend代码，才想起不曾发布过系统的源代码，找了6块硬盘，2台库存Thinkpad以后，终于找到了源代码，特此发布到GitHub，也防止这份源代码不慎丢失。
+Today, I saw a netizen asking for DeZend code on a forum I often hang out on, and then I remembered that I had never released the source code of the system. After looking for 6 hard drives and 2 stock Thinkpads, I finally found the source code and published it to GitHub to prevent the source code from being lost accidentally.
